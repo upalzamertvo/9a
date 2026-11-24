@@ -346,7 +346,7 @@ def esc(text: str) -> str:
 # ИИ
 # ============================================================
 ai_client = AsyncOpenAI(api_key=POLLINATIONS_API_KEY, base_url="https://gen.pollinations.ai/v1")
-AI_MODEL = "mistral"
+AI_MODEL = "openai"
 
 SYSTEM_PROMPT = (
     "Ты — умный помощник и свой парень в школьном групповом чате. "
